@@ -1,12 +1,21 @@
 footer {
-    height: 30vh;
-    width: 100%;
+   height: 25vh;
+   width: 100%;
+   font-family: "Oswald", serif;
 }
 .footer-superior {
-    background-color: #F4F4F4;
-    height: 70%;
+   background-color: #f4f4f4;
+   height: 70%;
+   display: flex;
 }
 .footer-inferior {
-    background-color: #1E1E1E;
-    height: 30%;
+   background-color: #1e1e1e;
+   height: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer-inferior p {
+   color: white;
+   font-size: 30px;
 }
