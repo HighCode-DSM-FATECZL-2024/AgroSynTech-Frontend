@@ -1,0 +1,47 @@
+.sobreErnst-section {
+    background-color: #F4F4F4;
+    font-family: "Oswald", serif;
+    height: 80vh;
+    display: flex;
+}
+.sobreErnst-section h3 {
+    font-size: 30px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    height: 22px;
+}
+.sobreErnst-section h1 {
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+.sobreErnst-section p {
+    width: 70%;
+    font-size: 30px;
+    text-align: justify;
+}
+.sobreErnst-text-area {
+    width: 60%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8BB6F;
+    height: 100%;
+    position: relative;
+}
+.fundador-text-area {
+    color: #124A27
+}
+.sobreErnst-foto {
+    background-color: red;
+    width: 600px;
+    height: 650px;
+    border-radius: 0px 30px 30px 30px;
+    background-image: url("./assets/foto-ernst.png");
+    background-size: cover;
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 45px;
+}

@@ -1,0 +1,12 @@
+footer {
+    height: 30vh;
+    width: 100%;
+}
+.footer-superior {
+    background-color: #F4F4F4;
+    height: 70%;
+}
+.footer-inferior {
+    background-color: #1E1E1E;
+    height: 30%;
+}
