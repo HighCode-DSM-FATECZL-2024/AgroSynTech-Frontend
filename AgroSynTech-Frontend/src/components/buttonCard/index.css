@@ -1,0 +1,14 @@
+.buttonCard-template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.buttonCard-template > button {
+    width: 30px;
+    height: 30px;
+}
+.buttonCard-template > p {
+    font-size: 20px;
+}

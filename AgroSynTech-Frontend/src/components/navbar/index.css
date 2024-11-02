@@ -8,7 +8,6 @@ nav {
 }
 .navbar-agrosyntech-logo {
    width: 10%;
-   background-color: blue;
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -17,28 +16,38 @@ nav {
 }
 .navbar-agrosyntech-logo h1 {
    font-family: "Oswald", serif;
-   font-size: 20px;
+   font-size: 33px;
+   color: #114A27;
+   height: 38px;
 }
 .navbar-agrosyntech-logo p {
    font-family: "Dosis", sans-serif;
+   font-size: 13px;
+   color: #202020;
+   font-weight: 500;
+   text-align: end;
+   width: 70px;
 }
 ul.navbar-links-navegation {
    font-family: "Oswald", serif;
    list-style-type: none;
    display: flex;
    gap: 10px;
-   background-color: green;
    height: 100%;
    display: flex;
    width: 30%;
    align-items: center;
    justify-content: center;
 }
+ul > li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #202020;
+}
 nav > .navbar-login-register {
     width: 20%;
-    background-color: red;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around
 }

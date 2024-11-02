@@ -21,8 +21,8 @@ const Navbar = () => {
       <>
          <nav>
             <div className="navbar-agrosyntech-logo">
-               <h1>Agro</h1>
-               <p>Syntech</p>
+               <h1>AGRO</h1>
+               <p>SYNTECH</p>
             </div>
             <ul className="navbar-links-navegation">
                {data_links.map((item, index) => (
@@ -30,8 +30,8 @@ const Navbar = () => {
                ))}
             </ul>
             <div className="navbar-login-register">
-               <Button title="Login" />
-               <Button title="Register" />
+               <Button title="Registrar-se" />
+               <Button title="Entrar" />
             </div>
          </nav>
       </>
