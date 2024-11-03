@@ -1,0 +1,15 @@
+.number-ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: #f8bb6f;
+}
+.number-ball span {
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 150px;
+}

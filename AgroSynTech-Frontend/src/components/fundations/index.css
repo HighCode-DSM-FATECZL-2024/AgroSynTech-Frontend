@@ -1,0 +1,11 @@
+.fundations{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 75%;
+}
+
+.fundations-right{
+    display: flex;
+    flex-direction: row-reverse !important;
+}

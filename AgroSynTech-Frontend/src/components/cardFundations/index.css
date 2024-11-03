@@ -1,0 +1,18 @@
+.card-fundations {
+    background-color: #3b6647;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 10px;
+}
+
+.card-fundations h2 {
+    color: #f8bb6f;
+}
+
+.card-fundations p {
+    width: 90%;
+}
