@@ -1,4 +1,5 @@
 import Navbar from "./components/navbar/index.jsx";
+import NavbarHamburguer from "./components/navbarMobile/index.jsx";
 
 import "./App.css";
 import Main from "./pages/main/index.jsx";
@@ -14,14 +15,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <Main />
-            <CardsMissao />
-            <SobreErnstGotsch />
-            <Fundamentos />
-            <Testemonial />
-            <FormPage />
-            <PerguntasFrequentes />
-            <FooterPage />
+           
         </>
     );
 }
