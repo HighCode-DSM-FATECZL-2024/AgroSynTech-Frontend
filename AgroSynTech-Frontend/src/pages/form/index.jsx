@@ -8,7 +8,7 @@ const FormPage = () => {
             <section className="from__selection">
                <h2 className="from__h2">ENTRE EM CONTATO</h2>
                <p className="from__p">
-                  Explore a transhtmlFormação do cultivo sustentável com a
+                  Explore a transformação do cultivo sustentável com a
                   agricultura sintrópica.
                   <br />
                   Deixe seus dados para saber mais.

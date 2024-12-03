@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./index.css";
 import CardTestemonial from "../cardTestemonial";
 
@@ -43,7 +43,8 @@ const Testemonial = () => {
     ];
     return (
         <div className="swiper-testimonials">
-            {dataTestimonials.map((data, index) => (
+            {dataTestimonials.map((data) => (
+                // eslint-disable-next-line react/jsx-key
                 <CardTestemonial data={data} />
             ))}
         </div>

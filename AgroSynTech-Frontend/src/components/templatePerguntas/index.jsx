@@ -1,10 +1,10 @@
 import { ArrowDown } from "lucide-react";
 import "./index.css";
 
-const TemplatePerguntas = () => {
+const TemplatePerguntas = ({ask = "Sem pergunta"}) => {
     return (
         <div className="templatePerguntas">
-            <p>O que é a AgroSyntech?</p>
+            <p>{ask}</p>
             <button className="templatePerguntas-button">
                 <ArrowDown strokeWidth={3.5} size={22}/>
             </button>

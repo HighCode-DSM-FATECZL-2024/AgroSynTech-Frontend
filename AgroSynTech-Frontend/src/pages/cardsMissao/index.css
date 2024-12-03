@@ -27,9 +27,6 @@
     justify-content: center;
     flex-direction: column;
 }
-.cardmissao-template > .card-missao-template-texto > p {
-
-}
 .card-missao-template-texto > h1 {
     font-size: 60px;
     color: #1E1E1E;
@@ -48,3 +45,38 @@
     align-items: center;
     justify-content: space-around
 }
+@media (max-width: 1600px) {
+
+}
+@media (max-width: 1300px) {
+    .card-missao-cards {
+        flex-direction: column;
+        height: 6000px;
+    }
+    .card-missao-template-texto > h1 {
+        font-size: 50px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 25px;
+    }
+    .cardmissao-section {
+        height: 180vh;
+    }
+}
+@media (max-width: 800px) {
+    .card-missao-template-texto > h1 {
+        font-size: 40px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .card-missao-template-texto > h1 {
+        font-size: 30px;
+    }
+    .card-missao-template-texto > p {
+        font-size: 17px;
+    }
+}
+

@@ -1,8 +1,9 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import CardFundations from "../cardFundations";
 import BallNumber from "../ballNumber";
 import "./index.css";
 
+// eslint-disable-next-line react/prop-types
 const Fundations = ({ data, index }) => {
     console.log(index);
     

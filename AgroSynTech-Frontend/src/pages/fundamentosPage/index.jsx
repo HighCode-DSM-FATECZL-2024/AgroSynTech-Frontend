@@ -1,4 +1,4 @@
-import React from "react";
+
 import Fundations from "../../components/fundations";
 import "./index.css";
 
@@ -40,6 +40,7 @@ const Fundamentos = () => {
             </div>
 
             {dataFundations.map((card, index) => (
+                // eslint-disable-next-line react/jsx-key
                 <Fundations data={card} index={index} />
             ))}
         </section>

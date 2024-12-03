@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import "./index.css";
 
 const CardTestemonial = ({ data }) => {
@@ -11,7 +12,7 @@ const CardTestemonial = ({ data }) => {
                 </div>
             </div>
 
-            <p className="card-testemonial-text">"{data.content}"</p>
+            <p className="card-testemonial-text">{data.content}</p>
         </article>
     );
 };

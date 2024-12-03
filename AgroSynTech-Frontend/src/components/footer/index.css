@@ -36,3 +36,23 @@ footer {
     width: 42px;
     height: 42px;
 }
+.footer-superior > ul {
+    height: 30px;
+}
+@media (max-width: 1030px) {
+    .footer-superior {
+        flex-direction: column;
+        height: 25vh;
+        justify-content: center;
+        gap: 25px
+    }
+    .footer-inferior > p {
+        font-size: 20px;
+    }
+    .navbar-links-navegation > li {
+        font-size: 15px;
+    }
+    .navbar-agrosyntech-logo {
+        height: 30px;
+    }
+}

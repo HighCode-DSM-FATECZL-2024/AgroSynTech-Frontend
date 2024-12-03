@@ -1,14 +1,13 @@
 .templatePerguntas {
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
     background-color: #F4F4F4;
-    gap: 60%;
-    width: 60%;
+    width: 700px;
     height: 79px;
     border-radius: 10px;
     font-family: "Oswald", serif;
+    justify-content: space-around;
+    gap: 80px
 }
 .templatePerguntas button {
     width: 50px;
@@ -16,6 +15,35 @@
     border-radius: 100%;
 }
 .templatePerguntas p {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 19px;
+    font-weight: 500;
+    width: 400px;
+}
+
+@media (max-width: 750px) {
+    .templatePerguntas {
+        width: 550px;
+        gap: 30px;
+    }
+}
+@media (max-width: 650px) {
+    .templatePerguntas {
+        width: 450px;
+        gap: 0px;
+    }
+    .templatePerguntas > p {
+        font-size: 16px;
+        width: 300px;
+    }
+}
+@media (max-width: 470px) {
+    .templatePerguntas {
+        width: 290px;
+        gap: 0px;
+        height: 70px;
+    }
+    .templatePerguntas > p {
+        font-size: 14px;
+        width: 200px;
+    }
 }

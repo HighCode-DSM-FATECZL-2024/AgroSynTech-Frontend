@@ -42,3 +42,113 @@ span {
    margin-bottom: 25px;
    margin-top: 10px;
 }
+@media (max-width: 1165px) {
+   .main-center > .main-center-p1 {
+      font-size: 20px;
+   }
+   .main-center > h1 {
+      font-size: 80px;
+   }
+   .main-center > .main-center-p2 {
+      font-size: 15px;
+   }
+   .main-background > .main-photo {
+      background-image: none;
+      width: 0px;
+      height: 0px;
+   }
+   .main-background {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start
+   }
+   .main-text-camp {
+      width: 100%;
+   }
+}
+@media (max-width: 935px) {
+   .main-center > .main-center-p1 {
+      font-size: 20px;
+      width: 100%;
+   }
+   .main-center > h1 {
+      font-size: 80px;
+   }
+   .main-center > .main-center-p2 {
+      font-size: 15px;
+   }
+   .main-background > .main-photo {
+      background-image: none;
+      width: 0px;
+      height: 0px;
+   }
+}
+@media (max-width: 500px) {
+   .main-center > .main-center-p1 {
+      font-size: 17px;
+      width: 100%;
+   }
+   .main-center > h1 {
+      font-size: 70px;
+   }
+   .main-center > .main-center-p2 {
+      font-size: 18px;
+      width: 80%;
+   }
+   .main-text-camp {
+      width: 100%;
+   }
+   .main-center > .main-center-p2 {
+      margin-bottom: 10px;
+      margin-top: 0px;
+   }
+   .main-center h1 {
+      height: 100px;
+   }
+}
+@media (max-width: 435px) {
+   .main-center > .main-center-p1 {
+      font-size: 15px;
+      width: 100%;
+   }
+   .main-center > h1 {
+      font-size: 50px;
+   }
+   .main-center > .main-center-p2 {
+      font-size: 15px;
+      width: 100%;
+   }
+   .main-text-camp {
+      width: 100%;
+   }
+   .main-center > .main-center-p2 {
+      margin-bottom: 10px;
+      margin-top: 0px;
+   }
+   .main-center h1 {
+      height: 80px;
+   }
+}
+@media (max-width: 355px) {
+   .main-center > .main-center-p1 {
+      font-size: 15px;
+      width: 100%;
+   }
+   .main-center > h1 {
+      font-size: 50px;
+   }
+   .main-center > .main-center-p2 {
+      font-size: 15px;
+      width: 100%;
+   }
+   .main-text-camp > .main-center {
+      width: 90%;
+   }
+   .main-center > .main-center-p2 {
+      margin-bottom: 10px;
+      margin-top: 0px;
+   }
+   .main-center h1 {
+      height: 80px;
+   }
+}

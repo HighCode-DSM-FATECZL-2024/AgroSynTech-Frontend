@@ -35,6 +35,8 @@ article {
    flex-direction: column;
    text-align: center;
    justify-content: center;
+   align-items: center;
+   justify-content: center;
 }
 
 .from__h2 {
@@ -109,22 +111,30 @@ button:hover {
    color: #124a27;
 }
 
-/* Media  */
-@media screen and (max-width: 769px) {
-   .form__article {
-      display: flex;
+
+@media (max-width: 1200px) {
+   .from__selection > img {
+      width: 0px;
+      height: 0px;
+   }
+   article {
       flex-direction: column;
    }
-
-   .from__selection {
-      width: 100%;
+}
+@media (max-width: 615px) {
+   .from__selection > h2 {
+      font-size: 25px;
    }
-
-   form {
-      width: 100%;
+   .from__selection > p {
+      width: 200px;
    }
-
-   .from__img {
-      display: none;
+}
+@media (max-width: 515px) {
+   .from__selection > h2 {
+      font-size: 25px;
+      width: 300px;
+   }
+   .from__selection > p {
+      width: 300px;
    }
 }
