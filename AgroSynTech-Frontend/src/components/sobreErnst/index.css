@@ -121,3 +121,19 @@
         font-size: 17px;
     }
 }
+@media (max-height: 700px) {
+    .sobreErnst-text-area {
+        justify-content: start;
+        padding-top: 20px;
+    }
+}
+@media (max-height: 600px) {
+    .sobreErnst-text-area {
+        height: 110vh;
+    }
+}
+@media (max-height: 550px) {
+    .sobreErnst-text-area {
+        height: 117vh;
+    }
+}
